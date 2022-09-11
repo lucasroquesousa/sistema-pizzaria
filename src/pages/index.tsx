@@ -4,9 +4,14 @@ import Image from "next/image";
 
 const Home = () => {
   return (
-    <div>
-      <h1>Olá</h1>
-    </div>
+    <>
+      <Head>
+        <title>Sênior - Faça seu login</title>
+      </Head>
+      <div>
+        <h1>Sênior - Pizzaria e Pastelaria </h1>
+      </div>
+    </>
   );
 };
 
