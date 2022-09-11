@@ -9,8 +9,8 @@
   --white: #fff;
   --black: #000;
 
-  --background: #101026;
-  --dark-700: #1d1d2e;
+  --dark-700: #101026;
+  --dark-900: #1d1d2e;
 
   --gray-100: #8a8a8a;
 
@@ -29,7 +29,7 @@ a {
 }
 
 body {
-  background: var(--background);
+  background: var(--dark-900);
 }
 
 body,
