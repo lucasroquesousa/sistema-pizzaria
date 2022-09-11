@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --white: #fff;
+  --black: #000;
+
+  --background: #101026;
+  --dark-700: #1d1d2e;
+
+  --gray-100: #8a8a8a;
+
+  --redButton: #d9304f;
+  --greenButton: #038c3e;
+  --red: red;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
