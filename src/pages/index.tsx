@@ -18,9 +18,10 @@ const Home = () => {
           <form>
             <Input type="text" placeholder="Digite seu email" />
             <Input type="password" placeholder="Digite sua senha" />
-            <Button type="submit" loading={true}>
+            <Button type="submit" loading={false}>
               Acessar
             </Button>
+            <a className={styles.text}>Não possui uma conta? Cadastre-se</a>
           </form>
         </div>
       </div>
